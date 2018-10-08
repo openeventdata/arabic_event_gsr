@@ -2,7 +2,7 @@
 
 Gold standard records for Arabic event data
 
-# Event Detection
+## Event Detection
 
 We provide two "event detection" datasets for Arabic language event coding, one
 for ASSAULT events and one for PROTEST events. These events are coded using the
@@ -25,7 +25,7 @@ two event types in Arabic text.
     event detection system
 - `total`: the total number of annotations provided on the sentence.
 
-# Span Recognition and Labeling
+## Span Recognition and Labeling
 
 Another set of files (`assault_spans.json` and `protest_spans.json`) include
 information for the gold standard recognized events, consisting of the event
@@ -34,3 +34,8 @@ for each.
 
 `source_gold`, `target_gold`, and `verb_gold` report the common identified by
 all coders as part of the span.
+
+## Petrarch validation format
+
+The two files are also available in XML format, suitable for use in
+UniversalPetrarch.
