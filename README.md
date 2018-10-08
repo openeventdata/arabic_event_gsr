@@ -25,3 +25,12 @@ two event types in Arabic text.
     event detection system
 - `total`: the total number of annotations provided on the sentence.
 
+# Span Recognition and Labeling
+
+Another set of files (`assault_spans.json` and `protest_spans.json`) include
+information for the gold standard recognized events, consisting of the event
+verb, the source actor and target actor spans, and resulting CAMEO actor codes
+for each.
+
+`source_gold`, `target_gold`, and `verb_gold` report the common identified by
+all coders as part of the span.
